@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# karllv@126.com
 import re
 
 pattern_1 = re.compile(r'world')
