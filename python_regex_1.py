@@ -7,4 +7,6 @@
 # Python Regular Expression examples
 
 
+str_ch = '万'
 
+print(str_ch.encode('utf-8'))
