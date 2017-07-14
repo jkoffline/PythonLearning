@@ -13,8 +13,13 @@ from pygame.locals import *
 
 pygame.init()
 
+screen_size = pygame.display.list_modes()
+print(screen_size)
+
+bg_img = 'sushiplate.jpg'
+
 screen = pygame.display.set_mode((640, 480), 0, 32)
-background = pygame.image.load('sushiplate.jpg').convert()
+background = pygame.image.load(bg_img).convert()
 
 Fullscreen = False
 
@@ -26,7 +31,8 @@ while True:
         if event.key == K_f:
             Fullscreen = not Fullscreen
             if Fullscreen:
-                screen = pygame.display.set_mode((640, 480), FULLSCREEN, 32)
+                #screen = pygame.display.set_mode((640, 480), FULLSCREEN, 32)
+                screen = pygame.display.set_mode(screen_size[0], FULLSCREEN, 32)
             else:
                 screen = pygame.display.set_mode((640, 480), 0, 32)
 
