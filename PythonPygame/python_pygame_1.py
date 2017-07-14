@@ -3,6 +3,9 @@
 #
 # http://eyehere.net/2011/python-pygame-novice-professional-1/
 #
+# Karl.Lv@outlook.com, KarlLv@126.com
+# 14 July, 2017
+#
 
 import pygame
 from pygame.locals import *
