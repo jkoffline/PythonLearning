@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 #
 # Karl.Lv@outlook.com, KarlLv@126.com
 # 18 August, 2017
