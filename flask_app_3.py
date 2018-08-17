@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# -*- utf-8 -*-
+# -*- coding: utf-8 -*-
 #
 # A simple RESTful web service implemented by Flask
 #
